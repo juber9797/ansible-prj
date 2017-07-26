@@ -1,5 +1,8 @@
 ---
 - hosts: droplets
+
+remote_user: ansible
+
   tasks:
     - name: Installs nginx web server
       apt: pkg=nginx state=installed update_cache=true
