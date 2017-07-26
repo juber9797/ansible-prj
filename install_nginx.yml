@@ -1,7 +1,10 @@
 ---
 - hosts: droplets
 
-remote_user: ansible
+  remote_user: ansible  
+  become: true
+  become_user: root
+  become_method: sudo
 
   tasks:
     - name: Installs nginx web server
