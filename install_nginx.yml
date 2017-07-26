@@ -8,4 +8,4 @@
 
   handlers:
     - name: start nginx
-      service: name=nginx state=started?
+      service: name=nginx state=started
