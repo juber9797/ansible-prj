@@ -1,6 +1,4 @@
 ---
-- hosts: 54.80.99.29
-
   remote_user: ansible  
   become: true
   become_user: root
