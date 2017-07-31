@@ -1,5 +1,5 @@
 ---
-- hosts: 54.80.99.29
+- hosts: all
 
   remote_user: ansible  
   become: true
