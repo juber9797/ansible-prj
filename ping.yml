@@ -1,0 +1,6 @@
+---
+ - hosts: all
+   become: yes
+   tasks:
+    - name: "testing live machine"
+      ping: ansible myhosts -m ping
